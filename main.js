@@ -25,5 +25,5 @@ inputs.each(function() {
 
 var b = document.getElementById('submit');
 b.addEventListener('click', function(e){
-	alert("Your request has been submitted, Thanks!");
+	alert("Sua mensagem foi enviada com sucesso!");
 });
