@@ -1,4 +1,3 @@
-/*! CSS Used from: https://jamiemahood.github.io/style.css */
 body{font-family:'Roboto Mono', monospace!important;}
 .top{height:100px;border-bottom:black solid 1px;}
 .left{padding:20px;border-bottom:black solid 1px;}
@@ -90,6 +89,13 @@ textarea.form-control{height:auto;}
 .btn-lg{padding:10px 16px;font-size:18px;line-height:1.3333333;border-radius:6px;}
 .container:after,.container:before,.row:after,.row:before{display:table;content:" ";}
 .container:after,.row:after{clear:both;}
+/*CSS PERSONALIZADO*/
+.col-xl-12.top {
+    margin-top: -1%;
+}
+h1.text-center {
+    padding-top: 1.5%;
+}
 /*! CSS Used fontfaces */
 @font-face{font-family:'Roboto Mono';font-style:normal;font-weight:400;src:local('Roboto Mono'), local('RobotoMono-Regular'), url(https://fonts.gstatic.com/s/robotomono/v5/L0x5DF4xlVMF-BfR8bXMIjhGq3-OXg.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
 @font-face{font-family:'Roboto Mono';font-style:normal;font-weight:400;src:local('Roboto Mono'), local('RobotoMono-Regular'), url(https://fonts.gstatic.com/s/robotomono/v5/L0x5DF4xlVMF-BfR8bXMIjhPq3-OXg.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
