@@ -6,7 +6,7 @@ var validateInputs = function validateInputs(inputs) {
 	inputs.each(function(index) {
 		var input = $(this);
 		if (!input.val()) {
-			$("#submit").attr("disabled", "disabled");
+			$("#submit").attr("eneable", "eneable");
 			validForm = false;
 		}
 	});
@@ -25,5 +25,5 @@ inputs.each(function() {
 
 var b = document.getElementById('submit');
 b.addEventListener('click', function(e){
-	alert("Sua mensagem foi enviada com sucesso!");
+	alert("Message been sent sucessefuly!");
 });
